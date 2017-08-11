@@ -5,5 +5,4 @@ CACHE_DIR="$2"
 ENV_DIR="$3"
 
 cd ${BUILD_DIR}
-ls .
-
+mv node_modules src
