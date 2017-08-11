@@ -6,6 +6,7 @@ ENV_DIR="$3"
 
 echo "       "
 echo "-----> Back up node_modules to avoid conflict"
-echo "       "
 cd ${BUILD_DIR}
 mv node_modules src
+echo "       rename node_modules to src"
+echo "       "
